@@ -1,13 +1,20 @@
 <template>
+  <div>
+    <app-navbar />
+
+
+  </div>
   
 </template>
 
 <script>
+
+import AppNavbar from "~/components/AppNavbar.vue";
 export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  }
-}
+  components: {
+    AppNavbar,
+  },
+};
 </script>
 
 <style>
