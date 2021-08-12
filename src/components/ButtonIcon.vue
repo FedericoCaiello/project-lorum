@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="flex space-x-4 lg:pb-12">
+  <div class="flex lg:block mb-4 lg:mb-0">
+    <div class="flex space-x-4 lg:mb-12">
       <g-link>
         <div class="p-4 border border-grey-400">
           <g-image src="~/assets/arrow-left.png" />
@@ -12,7 +12,7 @@
         </div>
       </g-link>
     </div>
-    <div class="flex text-grey-400 text-2xl lg:space-x-6">
+    <div class="flex text-grey-400 text-2xl lg:space-x-6 mx-auto">
         <div class="text-2xl">
             <p>0</p>
             <p>1</p>
