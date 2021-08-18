@@ -14,20 +14,25 @@
           </app-button>
         </div>
       </div>
-      <div class="container mx-auto">
-        <div class="bg-grey-700 flex">
-          <div class="lg:w-7/12 flex">
-            <div>
+      <div>
+        <div class="bg-grey-100 flex flex-col-reverse lg:justify-center lg:flex-row">
+          <div class="lg:w-6/12 flex justify-center lg:justify-around flex-wrap lg:flex-nowrap lg:py-8 space-y-8 lg:space-y-0">
+            <div class="space-y-8">
               <g-image src="~/assets/glass-palace2.png"></g-image>
               <g-image src="~/assets/glass-palace3.png"></g-image>
             </div>
-            <g-image src="~/assets/glass-palace1.png"></g-image>
+             <div class="flex self-center">
+               <g-image src="~/assets/glass-palace1.png"></g-image>
+             </div>
           </div>
-          <div class="lg:w-5/12">
-            <h2>About</h2>
+          <div class="lg:w-5/12 font-light lg:space-y-16 lg:py-8">
+            <h2 class="text-grey-400 text-6xl">About</h2>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis,
               reprehenderit magnam. Praesentium, fugiat excepturi. Ipsam
+              laboriosam totam tempore excepturi harum autem, itaque eveniet
+              mollitia, asperiores quod officiis. Doloribus, dicta voluptate!
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim esse temporibus,
               laboriosam totam tempore excepturi harum autem, itaque eveniet
               mollitia, asperiores quod officiis. Doloribus, dicta voluptate!
             </p>

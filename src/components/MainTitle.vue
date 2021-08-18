@@ -3,6 +3,6 @@
     <h1 class="font-light text-grey-400">
       PROJECT
     </h1>
-    <h2 class="font-bold text-grey-100"> Lorum </h2>
+    <h2 class="font-bold text-grey-500"> Lorum </h2>
   </div>
 </template>

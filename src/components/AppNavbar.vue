@@ -7,7 +7,7 @@
         </div>
         <div class="lg:w-8/12 hidden lg:block">
           <ul class="lg:flex text-xs space-y-4 lg:space-y-0 lg:space-x-28">
-            <li class="border-t-2 border-b-2 border-grey-100 px-2">
+            <li class="border-t-2 border-b-2 border-grey-500 px-2">
               <g-link to="/main/">MAIN</g-link>
             </li>
             <li><g-link to="/gallery/">GALLERY</g-link></li>

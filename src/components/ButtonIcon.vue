@@ -7,7 +7,7 @@
         </div>
       </g-link>
       <g-link>
-        <div class="p-4 border border-grey-400 bg-grey-500">
+        <div class="p-4 border border-grey-400 bg-grey-100">
           <g-image src="~/assets/arrow-right.png" />
         </div>
       </g-link>
