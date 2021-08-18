@@ -4,7 +4,7 @@
           Our Project
         </h2>
         <div>
-          <ul class="w-11/12 flex flex-wrap justify-around">
+          <ul class="flex flex-wrap justify-between">
             <li><g-image src="~/assets/img-project5.png" class="py-2"></g-image></li>
             <li><g-image src="~/assets/img-project3.png" class="py-2"></g-image></li>
             <li><g-image src="~/assets/img-project1.png" class="py-2"></g-image></li>

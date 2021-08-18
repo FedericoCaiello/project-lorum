@@ -4,13 +4,21 @@
     <app-container>
       <div class="lg:flex mb-4 lg:mb-24">
         <div class="lg:w-4/12">
-          <main-title />
+          <main-title> 
+            <template v-slot:title> 
+              PROJECT
+            </template>
+            <template v-slot:undertitle> 
+              Lorum
+            </template>
+          </main-title>
           <button-icon />
         </div>
         <div class="lg:w-8/12 relative">
           <g-image src="~/assets/bg-hero.png" class="object-cover w-full" />
-          <app-button class="absolute inset-x-0 bottom-0">
+          <app-button class="absolute bottom-0">
             VIEW PROJECT
+            <arrow-icon />
           </app-button>
         </div>
       </div>
@@ -50,15 +58,18 @@
             eveniet mollitia, asperiores quod officiis. Doloribus, dicta
             voluptate!
           </p>
-          <app-button>READ MORE</app-button>
+          <app-button>
+            READ MORE
+            <arrow-icon />
+          </app-button>
         </div>
       </div>
       <div class="space-y-8 mb-4 lg:mb-24">
         <h2 class="text-grey-400 text-6xl font-light">
           Main Focus/Mission Statement
         </h2>
-        <div class="grid lg:grid-cols-2 grid-rows-2 lg:grid-rows-1">
-          <div class="lg:w-8/12 flex items-center space-x-4">
+        <div class="grid lg:grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:space-x-32">
+          <div class="lg:w-10/12 flex items-center space-x-4">
             <p class="text-9xl text-grey-250">1</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nemo
@@ -66,7 +77,7 @@
               id nulla dolorem excepturi cum.
             </p>
           </div>
-          <div class="lg:w-8/12 flex items-center space-x-4">
+          <div class="lg:w-10/12 flex items-center space-x-4">
             <p class="text-9xl text-grey-250">2</p>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
@@ -88,6 +99,7 @@ import ButtonIcon from "~/components/ButtonIcon.vue";
 import AppButton from "~/components/AppButton.vue";
 import AppContainer from "~/components/AppContainer.vue";
 import CardProject from "~/components/CardProject.vue";
+import ArrowIcon from "~/components/ArrowIcon.vue";
 export default {
   components: {
     AppNavbar,
@@ -96,6 +108,7 @@ export default {
     AppButton,
     AppContainer,
     CardProject,
+    ArrowIcon,
   },
 };
 </script>
