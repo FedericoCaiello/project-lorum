@@ -89,11 +89,16 @@
       </div>
       <card-project />
       <div class="flex justify-center lg:justify-end">
-        <app-button-grey>
+        <app-button-grey class="mb-24">
           ALL PROJECTS
           <g-image src="~/assets/arrow-white.png" class="mx-2"></g-image>
         </app-button-grey>
       </div>
+      <app-email />
+      <app-button-grey class="mb-24">
+        SEND EMAIL
+        <g-image src="~/assets/arrow-white.png" class="mx-2"></g-image>
+      </app-button-grey>
     </app-container>
   </div>
 </template>
@@ -107,6 +112,8 @@ import AppContainer from "~/components/AppContainer.vue";
 import CardProject from "~/components/CardProject.vue";
 import ArrowIcon from "~/components/ArrowIcon.vue";
 import AppButtonGrey from "~/components/AppButtonGrey.vue";
+import AppEmail from "~/components/AppEmail.vue";
+
 export default {
   components: {
     AppNavbar,
@@ -117,6 +124,7 @@ export default {
     CardProject,
     ArrowIcon,
     AppButtonGrey,
+    AppEmail,
   },
 };
 </script>

@@ -5,7 +5,7 @@
         </h2>
         <div class="flex flex-wrap justify-center lg:justify-between">
           <div class="relative mb-4 z-10">
-            <g-image src="~/assets/img-project5.png" class=""></g-image>
+            <g-image src="~/assets/img-project5.png"></g-image>
               <div class="absolute top-0 bg-grey-600 opacity-75 z-20 h-full w-full flex flex-col justify-center items-start pl-10">
                 <h2 class="text-white lg:text-6xl text-4xl font-bold w-6/12 mb-4">Sample project</h2>
                 <p class="flex items-center text-white w-6/12">
@@ -29,16 +29,3 @@
         </div>
       </div>
 </template>
-
-
-
-<script>
-import AppContainer from "~/components/AppContainer.vue";
-import AppButton from "~/components/AppButton.vue";
-export default {
-  components: {
-    AppContainer,
-    AppButton,
-  },
-};
-</script>
