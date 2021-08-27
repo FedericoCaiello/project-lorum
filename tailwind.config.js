@@ -7,7 +7,7 @@ module.exports = {
       black: {
         '900':'#000000',
       }, /* colori da sistemare  */
-      grey: {
+      gray: {
         '100' : '#FBFBFB', /* 700 */
         '200' : '#F9F9F9', /* 500 */
         '300' : '#F2F2F2', /* 250 */
