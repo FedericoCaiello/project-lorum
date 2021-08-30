@@ -4,7 +4,7 @@
     <app-container>
       <div class="lg:flex mb-4 lg:mb-24">
         <div class="lg:w-4/12">
-          <main-title>
+          <main-title class="lg:py-80">
             <template v-slot:title> PROJECT </template>
             <template v-slot:undertitle> Lorum </template>
           </main-title>
@@ -237,6 +237,3 @@ export default {
   },
 };
 </script>
-
-<style>
-</style>
