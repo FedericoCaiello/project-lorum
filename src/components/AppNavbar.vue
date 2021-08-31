@@ -29,7 +29,7 @@
             'translate-x-0': menuActive === true,
           }"
         >
-          <ul class="lg:flex text-xs space-y-4 lg:space-y-0 lg:space-x-28">
+          <ul class="lg:flex text-xs space-y-4 lg:space-y-0 lg:space-x-28 inline-block">
             <li class="border-t-2 border-b-2 border-gray-600 px-2">
               <g-link to="/">MAIN</g-link>
             </li>
@@ -49,7 +49,7 @@
                 px-2
               "
             >
-              <g-link to="/project/">PROJECT</g-link>
+              <g-link to="/our-project/">PROJECT</g-link>
             </li>
             <li
               class="

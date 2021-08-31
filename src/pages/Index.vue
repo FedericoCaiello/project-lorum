@@ -206,7 +206,7 @@
         <g-image src="~/assets/arrow-white.png" class="mx-2"></g-image>
       </app-button>
     </app-container>
-    <app-footer class="bg-gray-700" />
+    <app-footer />
   </div>
 </template>
 
