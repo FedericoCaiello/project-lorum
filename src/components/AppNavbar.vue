@@ -67,7 +67,7 @@
                 px-2
               "
             >
-              <g-link to="/contacts/">CONTACTS</g-link>
+              <g-link to="/information/">CONTACTS</g-link>
             </li>
           </ul>
         </div>
@@ -85,7 +85,7 @@
             class="svg-inline--fa fa-bars fa-w-14"
             :class="{
               'text-black-900': menuActive === false,
-              'text-pink-100': menuActive === true,
+              'text-gray-500': menuActive === true,
             }"
             role="img"
             xmlns="http://www.w3.org/2000/svg"

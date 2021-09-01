@@ -6,7 +6,7 @@
         <template v-slot:title> Photo </template>
         <template v-slot:undertitle> Gallery </template>
       </main-title>
-      <div class="lg:flex lg:justify-between my-8">
+      <div class="lg:flex lg:flex-wrap my-8">
         <photo-gallery>
           <g-image
             src="~/assets/gallery1.png"
@@ -37,8 +37,7 @@
             class="h-full lg:object-cover w-full"
           ></g-image>
         </photo-gallery>
-      </div>
-      <div class="lg:flex lg:justify-between my-8">
+
         <photo-gallery>
           <g-image
             src="~/assets/gallery6.png"
@@ -71,19 +70,17 @@
         </photo-gallery>
       </div>
       <div class="flex space-x-8">
+        <number-selected>
+          <template v-slot:number-to-left>
+            <span class="block text-gray-600">0</span>
+            <span class="block text-gray-600">1</span>
+          </template>
+          <template v-slot:number-to-right>
+            <span class="block">2</span>
+          </template>
+        </number-selected>
         <div>
-          <number-selected>
-            <template v-slot:number-to-left>
-              <span class="block text-gray-600">0</span>
-              <span class="block text-gray-600">1</span>
-            </template>
-            <template v-slot:number-to-right>
-              <span class="block">2</span>
-            </template>
-          </number-selected>
-        </div>
-        <div>
-            <buttons-icon />
+          <buttons-icon />
         </div>
       </div>
     </app-container>
@@ -99,6 +96,7 @@ import PhotoGallery from "~/components/PhotoGallery.vue";
 import NumberSelected from "~/components/NumberSelected.vue";
 import ButtonsIcon from "~/components/ButtonsIcon.vue";
 import AppFooter from "~/components/AppFooter.vue";
+
 export default {
   components: {
     AppNavbar,

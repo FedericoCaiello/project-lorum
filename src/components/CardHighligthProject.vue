@@ -1,19 +1,25 @@
 <template>
-    <div class="lg:flex my-8 lg:my-12">
-        <slot />
-        <div class="bg-gray-100 p-5 lg:p-10 space-y-12 lg:space-y-24">
-            <h3 class="text-4xl font-light text-gray-500">Sample Project</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Facere velit, veniam quod officiis deleniti sint ex, 
-                dolorem similique, voluptas esse aut vitae eius natus nihil harum maiores? 
-                Animi, reiciendis ipsam?
-            </p>
-            <app-button>
-                VIEW MORE
-                <arrow-icon />
-            </app-button>
-        </div>
+  <div class="lg:flex my-8 lg:my-12">
+    <div class="w-7/12">
+      <slot />
     </div>
+    <div class="w-5/12">
+      <div class="bg-gray-100 p-5 lg:p-10 space-y-12 lg:space-y-24 h-full">
+        <h3 class="text-4xl font-light text-gray-500">
+            <slot name="title"/>
+        </h3>
+        <p>
+            <slot name="text"/>
+        </p>
+        <app-button>
+          <g-link to="/sample-project1/" class="flex items-center">
+            VIEW MORE
+            <arrow-icon />
+          </g-link>
+        </app-button>
+      </div>
+    </div>
+  </div>
 </template>
 
 
