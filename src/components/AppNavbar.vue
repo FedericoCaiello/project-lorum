@@ -115,7 +115,11 @@ export default {
   }),
   methods: {
     toggleMenu() {
-      this.menuActive = !this.menuActive;
+      if (this.menuActive = !this.menuActive) {
+        document.body.classList.add("overflow-hidden");
+      } else {
+        document.body.classList.remove("overflow-hidden");
+      }
     },
   },
 };

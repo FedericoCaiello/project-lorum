@@ -14,12 +14,10 @@
           ></g-image>
           <template v-slot:title> Sample Project </template>
           <template v-slot:text>
-            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
               velit, veniam quod officiis deleniti sint ex, dolorem similique,
               voluptas esse aut vitae eius natus nihil harum maiores? Animi,
               reiciendis ipsam?
-            </p>
           </template>
         </card-highligth-project>
         <card-highligth-project>
@@ -27,14 +25,12 @@
             src="~/assets/image32.png"
             class="w-full object-cover"
           ></g-image>
-          <template v-slot:title> Sample Project </template>
+          <template v-slot:title> Sample Project2 </template>
           <template v-slot:text>
-            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
               velit, veniam quod officiis deleniti sint ex, dolorem similique,
               voluptas esse aut vitae eius natus nihil harum maiores? Animi,
               reiciendis ipsam?
-            </p>
           </template>
         </card-highligth-project>
         <card-highligth-project>
@@ -42,14 +38,12 @@
             src="~/assets/image33.png"
             class="w-full object-cover"
           ></g-image>
-          <template v-slot:title> Sample Project </template>
+          <template v-slot:title> Sample Project3 </template>
           <template v-slot:text>
-            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
               velit, veniam quod officiis deleniti sint ex, dolorem similique,
               voluptas esse aut vitae eius natus nihil harum maiores? Animi,
               reiciendis ipsam?
-            </p>
           </template>
         </card-highligth-project>
       </div>

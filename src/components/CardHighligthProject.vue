@@ -1,9 +1,9 @@
 <template>
   <div class="lg:flex my-8 lg:my-12">
-    <div class="w-7/12">
+    <div class="lg:w-7/12">
       <slot />
     </div>
-    <div class="w-5/12">
+    <div class="lg:w-5/12">
       <div class="bg-gray-100 p-5 lg:p-10 space-y-12 lg:space-y-24 h-full">
         <h3 class="text-4xl font-light text-gray-500">
             <slot name="title"/>
