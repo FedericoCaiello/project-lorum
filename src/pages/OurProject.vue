@@ -7,44 +7,27 @@
         <template v-slot:undertitle> Project </template>
       </main-title>
       <div class="space-y-4 lg:space-y-10">
-        <card-highligth-project>
+        <card-highligth-project title="sample project" description="lorem
+        lorem">
           <g-image
             src="~/assets/image30.png"
             class="w-full object-cover"
           ></g-image>
-          <template v-slot:title> Sample Project </template>
-          <template v-slot:text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-              velit, veniam quod officiis deleniti sint ex, dolorem similique,
-              voluptas esse aut vitae eius natus nihil harum maiores? Animi,
-              reiciendis ipsam?
-          </template>
+          
         </card-highligth-project>
-        <card-highligth-project>
+        <card-highligth-project title="sample project" description="lorem
+        lorem">
           <g-image
             src="~/assets/image32.png"
             class="w-full object-cover"
           ></g-image>
-          <template v-slot:title> Sample Project2 </template>
-          <template v-slot:text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-              velit, veniam quod officiis deleniti sint ex, dolorem similique,
-              voluptas esse aut vitae eius natus nihil harum maiores? Animi,
-              reiciendis ipsam?
-          </template>
         </card-highligth-project>
-        <card-highligth-project>
+        <card-highligth-project title="sample project" description="lorem
+        lorem">
           <g-image
             src="~/assets/image33.png"
             class="w-full object-cover"
           ></g-image>
-          <template v-slot:title> Sample Project3 </template>
-          <template v-slot:text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-              velit, veniam quod officiis deleniti sint ex, dolorem similique,
-              voluptas esse aut vitae eius natus nihil harum maiores? Animi,
-              reiciendis ipsam?
-          </template>
         </card-highligth-project>
       </div>
       <div class="flex space-x-8 my-8">
