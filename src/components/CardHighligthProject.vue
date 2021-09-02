@@ -6,10 +6,10 @@
     <div class="lg:w-5/12">
       <div class="bg-gray-100 p-5 lg:p-10 space-y-12 lg:space-y-24 h-full">
         <h3 class="text-4xl font-light text-gray-500">
-            <slot name="title"/>
+            {{title}}
         </h3>
         <p>
-            <slot name="text"/>
+            {{description}}
         </p>
         <app-button>
           <g-link to="/sample-project1/" class="flex items-center">
@@ -28,6 +28,16 @@ import AppButton from "~/components/AppButton.vue";
 import ArrowIcon from "~/components/ArrowIcon.vue";
 
 export default {
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    description: {
+      type: String,
+      required: true,
+    },
+  },
   components: {
     AppButton,
     ArrowIcon,
